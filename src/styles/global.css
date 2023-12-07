@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+@tailwind base;
+
+a {
+  @apply text-blue-700;
+}
+
+a:hover {
+  @apply border-b-2 border-blue-700;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+th {
+  font-weight: 400;
+}
+
+._3-Hv7 {
+  max-height: calc(100vh - 186px);
+  border: unset !important;
+}
+
+._1Y2r9 {
+  position: relative;
+}
+
+._3AOEJ {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+._beLGF {
+  max-width: 465px;
+}
+
+._2PH81 {
+  display: none !important;
+}
+
+._1W-Vm {
+  border-bottom: unset !important;
+}
+
+._1PYmg {
+  padding: 1.5rem !important;
+}
+
+._1be8d {
+  background: unset !important;
+  background-image: url('/assets/images/message-sender.svg') !important; 
+  background-repeat: no-repeat !important;
+  background-size: 24px 24px !important; 
+  background-position: 0rem center !important; 
+  width: 25px;
+  height: 24px;
+  padding: 0px !important;
+  color: unset !important;
+}
+
+._1be8d svg {
+  display: none !important;
+}
+
+._lajK0 p {
+  background: #668FC3;
+  border-radius: 20px 20px 0 20px;
+  padding:12px;
+  color: #FFFFFF;
+}
+
+._1be8d {
+  font-size: 0 !important;
+}
+
+.space-x-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+svg {
+  display: inline-block;
+}
+
+.ql-container.ql-snow  {
+  height: 200px;
+  border-width: 0px 1px 1px 1px; 
+  border-style: solid;
+  border-color: #EAECF0 !important;
+  border-radius: 0 0 10px 10px;
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.ql-toolbar.ql-snow {
+  border-radius: 10px 10px 0 0;
+  border-width: 1px 1px 0 1px; 
+  border-style: solid;
+  border-color: #EAECF0 !important;
+}
+
+.richText p:last-child {
+  font-family: "Nunito";
+  font-size: 14px;
+  font-weight: 400;
+  color: #101828;
+  opacity: 50%;
+}
+
+.reportTable {
+  border-collapse: unset !important;
+}

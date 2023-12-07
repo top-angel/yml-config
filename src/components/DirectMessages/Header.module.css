@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  align-items: center;
+}
+
+.header > * {
+  pointer-events: none;
+}
+
+.icon {
+  width: 1.5rem;
+}
+
+.btnBack {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+}
+
+.btnBack .backIcon {
+  pointer-events: none;
+  width: 1rem;
+  fill: #7E8FAA;
+  transform: rotate(180deg);
+}
+
+.btnCopy {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+}
+
+.btnCopy .copyIcon {
+  pointer-events: none;
+  width: 1rem;
+  fill: #7E8FAA;
+  margin-left: 5px;
+}
+
+.toggleArrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  width: 32px;
+  height: 32px;
+}
+
+.toggleArrow .icon {
+  margin-left: auto;
+  margin-right: auto;
+  fill: transparent;
+}
+
+.isFlipped {
+  transform: scaleY(-1);
+}
+
+.notificationCount {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}

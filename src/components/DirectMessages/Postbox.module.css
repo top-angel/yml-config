@@ -1,0 +1,79 @@
+.postbox {
+  width: calc(100% - 30px);
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 75px;
+}
+
+.postbox .postboxInput {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.postbox .editable {
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+  flex-grow: 1;
+  outline: none;
+  max-height: 80px;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  background: #668FC31A;
+  border-radius: 12px 0px 0px 12px;
+  color: #668FC3;
+  padding: 16px;
+}
+
+.postbox .editable:empty:before {
+  content: attr(data-placeholder);
+  pointer-events: none;
+}
+
+.postbox .editable::-webkit-scrollbar {
+  display: none;
+}
+
+.replyto {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+
+.replytoDetails {
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.replytoCancel {
+  flex-shrink: 0;
+  line-height: 1;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  color: currentColor;
+  outline: none;
+}
+
+.sendButton {
+  border: 0;
+  width: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: #668FC31A;
+  height: 53px;
+  border-radius: 0px 12px 12px 0px;
+}
+
+.sendButton:disabled {
+  cursor: default;
+}
+
+

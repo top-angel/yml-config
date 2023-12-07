@@ -1,0 +1,44 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: transform 300ms ease 0s;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.floating {
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+  width: 100%;
+  height: calc(100vh - 133px);
+  transform: translateY(0);
+}
+
+.headerWrapper {
+  flex-shrink: 0;
+}
+
+.bodyWrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.walletWrapper {
+  margin: auto;
+  text-align: center;
+}
+
+.isClosed {
+  transform: translateY(100%);
+}
